@@ -33,7 +33,7 @@ class AddressBook
     lower = 0
     upper = @entries.length - 1
 
-    while lower < = upper
+    while lower <= upper
       mid = (lower + upper)/2
       mid_name = entries[mid].name
 
@@ -47,4 +47,5 @@ class AddressBook
     end
     return nil
   end
+
 end
